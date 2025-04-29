@@ -7,8 +7,8 @@ function Buscador({onSubmit, valorInput, onChange}) {//pasamos las props que usa
 
     return (
         <>
-            <form onSubmit={onSubmit}>
-                <input value={valorInput} onChange={onChange} />
+            <form className= "form-buscador" onSubmit={onSubmit}>
+                <input className= "buscador" value={valorInput} onChange={onChange} />
             </form>
 
         </>

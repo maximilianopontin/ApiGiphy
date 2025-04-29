@@ -4,7 +4,7 @@ function Gif({gif}) {
     return (
         <>
             {
-                <img src={gif.images.original.url} alt={gif.title} />//establecemos como clave unica el id
+                <img className="gif" src={gif.images.original.url} alt={gif.title} />//establecemos como clave unica el id
                 
                 }
         </>
