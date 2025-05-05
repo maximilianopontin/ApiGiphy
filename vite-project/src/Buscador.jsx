@@ -7,6 +7,8 @@ function Buscador({onSubmit, valorInput, onChange}) {//pasamos las props que usa
 
     return (
         <>
+
+        <h2>Buscador de Gifs</h2>
             <form className= "form-buscador" onSubmit={onSubmit}>
                 <input className= "buscador" value={valorInput} onChange={onChange} />
             </form>
